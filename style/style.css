@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  margin: 20px 10px 20px;
+  color: white;
+  border-style: none;
+}
+
+.btn-1 {
+  background-color: #26baa4;
+  -webkit-box-shadow: 2px 2px 5px #26baa4;
+          box-shadow: 2px 2px 5px #26baa4;
+}
+
+.btn-2 {
+  background-color: #6173ff;
+  -webkit-box-shadow: 2px 2px 5px #6173ff;
+          box-shadow: 2px 2px 5px #6173ff;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.first-section i {
+  font-size: 76px;
+  margin: 25px;
+  color: #26baa4;
+}
+
+.first-section h1 {
+  font-size: 32px;
+  color: #9fabb2;
+  margin: 20px;
+}
+
+.first-section p {
+  display: inline-block;
+  max-width: 700px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.second-section h2 {
+  font-size: 32px;
+  margin: 20px;
+}
+
+.second-section p {
+  display: inline-block;
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 100px;
+}
+
+.second-section img {
+  width: 720px;
+}
+
+.second-section .img-text {
+  float: right;
+  text-align: left;
+}
+
+.third-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px;
+  color: #9fabb2;
+}
+
+.fourth-section .card {
+  text-align: center;
+  display: inline-block;
+}
+
+.fourth-section .card img {
+  margin: 30px;
+}
+
+.fourth-section .card p {
+  display: inline-block;
+  max-width: 300px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.sixth-section p {
+  display: inline-block;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.seventh-section {
+  background-color: #a7a7a7;
+}
+
+.seventh-section p {
+  display: inline-block;
+  margin: 20px;
+}
+
+.seventh-section .logo {
+  display: inline-block;
+  margin: 20px;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    width: 300px;
+    margin: 10px;
+  }
+  .btn-2 {
+    margin-bottom: 55px;
+  }
+  .img-text {
+    text-align: center;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
